@@ -1,1 +1,335 @@
-Hello World
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>portfolio</title>
+    <style>
+        .crossed-wallpaper {
+            background: rgb(77, 187, 241);
+            padding: 100px 0;
+            transform: skew(0deg, -4deg) translateY(-90px);
+            position: relative;
+        }
+
+        .image-box {
+            margin-top: -150px;
+            margin-left: 45%;
+            position: absolute;
+        }
+
+        @media only screen and (max-width:768px) {
+            .image-box {
+                margin-left: 46%;
+                position: absolute;
+            }
+        }
+
+        @media only screen and (max-width:600px) {
+            .image-box {
+                margin-left: 27%;
+                position: absolute;
+            }
+        }
+
+        .dot {
+            background: rgb(77, 187, 241);
+            height: 25px;
+            width: 25px;
+            margin-left: 25%;
+        }
+
+        @media only screen and (max-width:600px) {
+            .dot {
+                margin-left: 50px;
+            }
+        }
+
+        @media only screen and (max-width:768px) {
+            .dot {
+                margin-left: 130px;
+            }
+        }
+
+        .image-border {
+            border: 15px solid rgb(77, 187, 241);
+        }
+
+        .standard-color {
+            color: rgb(77, 187, 241);
+        }
+
+        .standard-background {
+            background: rgb(77, 187, 241);
+        }
+
+        .shadow {
+            padding: 5px;
+            box-shadow: 5px 10px 10px #888888;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="crossed-wallpaper"></div>
+    <div class="image-box">
+        <img src="./Images/nvchaitanya.png" height="200px" width="200px" class="rounded-circle image-border"
+            alt="chathan photo">
+    </div>
+
+    <div class="offset-5 offset-md-4 offset-lg-5">
+        <div class="rounded-circle dot"></div>
+    </div>
+
+    <div class="container text-center">
+        <div class="row">
+            <div class="col mt-5">
+                <h1 class="text-muted mb-3">Chaitanya Nistala</h1>
+                <h4 class="text-muted mb-3">Front End Developer</h4>
+                <div class="d-flex flex-wrap text-center justify-content-center">
+                    <h6 class="mb-3"><span class="standard-color"><i class="fas fa-map-marker-alt"></i></span>
+                        Bangalore,
+                        India
+                    </h6>
+                    <h6 class="mb-3 pl-5"><span class="standard-color"><i class="fas fa-phone-alt"></i></span> +91
+                        7997011244
+                    </h6>
+                    <h6 class="mb-3 pl-5"><span class="standard-color"><i class="fas fa-envelope"></i></span>
+                        chathan2569@gmail.com
+                    </h6>
+                </div>
+                <!-- <div class=""> -->
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link active"
+                            href="https://www.linkedin.com/in/nistala-venkata-chaitanya-11a05649/"><span class="h1"><i
+                                    class="fab fa-linkedin"></i></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/nvchaitanya"><span class="h1 text-dark"><i
+                                    class="fab fa-github"></i></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://twitter.com/nistala_venkata"><span class="h1"><i
+                                    class="fab fa-twitter"></i></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="https://www.hackerrank.com/chathan2569"><span
+                                class="h1 text-success"><i class="fab fa-hackerrank"></i></span></a>
+                    </li>
+                </ul>
+                <!-- </div> -->
+                <hr>
+                <h6 class="col-10 offset-1 col-md-10 offset-md-1 col-lg-8 offset-lg-2 lead my-4">A Passionate aspiring
+                    Front
+                    End Developer skilled in MERN stack
+                    moulded
+                    and shaped by Masai School's
+                    numerous training.Actively ready to join in a great lively team of a good start-up, where i can
+                    enhance
+                    my
+                    skills and can become an asset to the organization </h6>
+                <hr>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-3">
+        <h1 class="text-center text-muted"> <strong>Tech Stack</strong></h1>
+        <div class="row">
+            <div class="col-6 col-md-6 col-lg-3 mb-3 text-center">
+                <img src="https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/html5-512.png" alt="HTML"
+                    style="width:150px;height:150px;border-radius: 50%;padding:12px;">
+                <p class="mt-2">HTML 5</p>
+            </div>
+            <div class="col-6 col-md-6 col-lg-3 mb-3 text-center">
+                <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png" alt="CSS"
+                    style="width:150px;height:150px;border-radius: 50%;padding:12px;">
+                <p class="mt-2 text-center">CSS</p>
+            </div>
+            <div class="col-6 col-md-6 col-lg-3 mb-3 text-center">
+                <img src="https://cdn.svgporn.com/logos/git-icon.svg" alt="Git"
+                    style="width:150px;height:150px;border-radius: 50%;padding:12px;">
+                <p class="mt-2">GIT</p>
+            </div>
+            <div class="col-6 col-md-6 col-lg-3 mb-3 text-center">
+                <img src="https://cdn.svgporn.com/logos/bootstrap.svg" alt="Bootstrap"
+                    style="width:150px;height:150px;border-radius: 50%;padding:12px;">
+                <p class="mt-2 pl-3">BOOTSTRAP</p>
+            </div>
+            <div class="col-6 col-md-6 col-lg-3 mb-3 text-center">
+                <img src="https://cdn.svgporn.com/logos/javascript.svg" alt="Java Script"
+                    style="width:150px;height:150px;border-radius: 50%;padding:12px;">
+                <p class="mt-2">JAVA SCRIPT</p>
+            </div>
+            <div class="col-6 col-md-6 col-lg-3 mb-3 text-center">
+                <img src="https://cdn.svgporn.com/logos/jquery.svg" alt="Jquery"
+                    style="width:150px;height:150px;border-radius: 50%;padding:12px;">
+                <p class="mt-2">JQUERY</p>
+            </div>
+            <div class="col-6 col-md-6 col-lg-3 mb-3 text-center">
+                <img src="https://cdn.svgporn.com/logos/react.svg" alt="React"
+                    style="width:150px;height:150px;border-radius: 50%;padding:12px;">
+                <p class="mt-2">REACT</p>
+            </div>
+            <div class="col-6 col-md-6 col-lg-3 mb-3 text-center">
+                <img src="https://cdn.svgporn.com/logos/materializecss.svg" alt="Materialize"
+                    style="width:150px;height:150px;border-radius: 50%;padding:12px;">
+                <p class="mt-2">MATERIALIZE</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <div class="container my-5">
+        <h1 class="text-center text-muted"> <strong>Proficiencies</strong></h1>
+        <div class="row">
+            <div class="col-6 col-md-6 col-lg-4 text-center">
+                <img src="https://cdn.svgporn.com/logos/react.svg" alt="React"
+                    style="width:150px;height:150px;border-radius: 50%;padding:12px;">
+                <p><strong class="text-muted">React Apps</strong></p>
+                <span class="d-none d-lg-block">When it comes to react apps <br>I have the strength of Atlas</span>
+            </div>
+            <div class="col-6 col-md-6 col-lg-4 text-center">
+                <img src="https://i.ya-webdesign.com/images/css-3-logo-png-7.png" alt="Frontend"
+                    style="width:150px;height:150px;border-radius: 50%;padding:12px;">
+                <p><strong class="text-muted">Frontend</strong></p>
+                <span class="d-none d-lg-block">Now just that I can <br>even host the show</span>
+            </div>
+            <div class="col-6 col-md-6 col-lg-4 text-center">
+                <img src="https://hackr.io/tutorials/learn-data-structures-algorithms/logo/logo-data-structures-algorithms?ver=1550834269"
+                    alt="Data Structures" style="width:150px;height:150px;border-radius: 50%;padding:12px;">
+                <p><strong class="text-muted">Data Structures</strong></p>
+                <span class="d-none d-lg-block">Putting the right blocks in the<br> right place is just my thing </span>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <div class="container my-5">
+        <h1 class="text-center text-muted"><strong>Projects</strong></h1>
+        <div class="row">
+            <div class="col-10 offset-1 offset-md-0 col-md-6 col-lg-6 mb-2">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="./Images/flipkart.png" alt="" class="img-fluid" style="height:500px;width:500px">
+                    </div>
+                    <div class="card-body text-center">
+                        <h3 class="text-center"><strong> Flikart Project</strong></h3>
+                        <span class="h5">This is the clone of Flipkart Website</span><br>
+                        <a href="https://github.com/nvchaitanya/Frontend-Project-Flipkart"><span
+                                class="text-dark text-muted"><i class="fab fa-github"></i> GitHub</span></a>
+                        <a href="https://trusting-jang-95b042.netlify.com"><span class="text-muted px-4">Project
+                                Demo</span></a>
+
+                    </div>
+                    <div class="card-footer text-center">
+                        <img src="https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/html5-512.png"
+                            style="height:25px" class="px-1" alt="">
+                        <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png"
+                            style="height:25px" class="px-1" alt="">
+                        <img src="https://cdn.svgporn.com/logos/bootstrap.svg" style="height:25px" class="px-1" alt="">
+                        <img src="https://cdn.svgporn.com/logos/javascript.svg" style="height:25px" class="px-1" alt="">
+                        <img src="https://cdn.svgporn.com/logos/jquery.svg" style="height:25px" class="px-1" alt="">
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-10 offset-1 offset-md-0 col-md-6 col-lg-6 mb-2">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="./Images/currency converter.png" alt="" style="height:500px;width:500px">
+                    </div>
+                    <div class="card-body mb-4">
+                        <h3 class="text-center"><strong>Currency Converter</strong></h3>
+                        <span class="h5">This is an Online Currency Converter</span><br>
+                    </div>
+                    <div class="card-footer text-center">
+                        <img src="https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/html5-512.png"
+                            style="height:25px" class="px-1" alt="">
+                        <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png"
+                            style="height:25px" class="px-1" alt="">
+                        <img src="https://cdn.svgporn.com/logos/bootstrap.svg" style="height:25px" class="px-1" alt="">
+                        <img src="https://cdn.svgporn.com/logos/javascript.svg" style="height:25px" class="px-1" alt="">
+                        <img src="https://cdn.svgporn.com/logos/jquery.svg" style="height:25px" class="px-1" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="my-3">
+
+    <div class="container text-center my-5">
+        <div class="row">
+            <div class="col-lg-2 offset-lg-1 mb-2 text-center d-none d-lg-block">
+                <div style="height:220px;width:220px;border:15px solid rgb(77, 187, 241);"
+                    class="text-center rounded-circle">
+                    <p class="font-weight-bold pt-5 h1 text-center">1200+</p>
+                    <span class="h4">Hours Of<br> Coding</span>
+                </div>
+            </div>
+            <div class="col-lg-2 offset-lg-1 mb-2 d-none d-lg-block">
+                <div style="height:220px;width:220px;border:15px solid rgb(77, 187, 241);"
+                    class="text-center rounded-circle">
+                    <p class="font-weight-bold pt-5 h1">150+</p>
+                    <span class="h4">Hackerrank <br>Problems</span>
+                </div>
+            </div>
+            <div class="col-lg-2 offset-lg-1 mb-2 d-none d-lg-block">
+                <div style="height:220px;width:220px;border:15px solid rgb(77, 187, 241);"
+                    class="text-center rounded-circle">
+                    <p class="font-weight-bold pt-5 h1">230+</p>
+                    <span class="h4">GitHub Contributions</span>
+                </div>
+            </div>
+            <div class="col-lg-2 offset-lg-1 mb-2 d-none d-lg-block">
+                <div style="height:220px;width:220px;border:15px solid rgb(77, 187, 241);"
+                    class="text-center rounded-circle">
+                    <p class="font-weight-bold h1 mt-5">100</p>
+                    <span class="h4">Hours of <br>Soft Skills</span>
+                </div>
+            </div>
+        </div>
+
+        <div clas="row">
+            <div class="col-10 offset-1 col-md-10 d-lg-none shadow mb-3">
+                <h4 class="border border-info py-4 rounded">1200+ Hours of Coding</h4>
+            </div>
+            <div class="col-10 offset-1 col-md-10 d-lg-none shadow mb-3">
+                <h4 class="border border-info py-4 rounded">150+ Hackerrank Problems</h4>
+            </div>
+            <div class="col-10 offset-1 col-md-10 d-lg-none shadow mb-3">
+                <h4 class="border border-info py-4 rounded">230+ GitHub Contributions</h4>
+            </div>
+            <div class="col-10 offset-1 col-md-10 d-lg-none shadow mb-3">
+                <h4 class="border border-info py-4 rounded">100 Hours of Soft Skills</h4>
+            </div>
+        </div>
+    </div>
+    <hr class="my-5">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-10 offset-1 col-md-10 offset-md-1 col-lg-12 offset-lg-0">
+                <img src="./Images/github.png" alt="github" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f90b59850b.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
