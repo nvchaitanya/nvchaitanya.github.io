@@ -7,83 +7,23 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>portfolio</title>
-    <style>
-        .crossed-wallpaper {
-            background: rgb(77, 187, 241);
-            padding: 100px 0;
-            transform: skew(0deg, -4deg) translateY(-90px);
-            position: relative;
-        }
-
-        .image-box {
-            margin-top: -150px;
-            margin-left: 45%;
-            position: absolute;
-        }
-
-        @media only screen and (max-width:768px) {
-            .image-box {
-                margin-left: 46%;
-                position: absolute;
-            }
-        }
-
-        @media only screen and (max-width:600px) {
-            .image-box {
-                margin-left: 27%;
-                position: absolute;
-            }
-        }
-
-        .dot {
-            background: rgb(77, 187, 241);
-            height: 25px;
-            width: 25px;
-            margin-left: 25%;
-        }
-
-        @media only screen and (max-width:600px) {
-            .dot {
-                margin-left: 50px;
-            }
-        }
-
-        @media only screen and (max-width:768px) {
-            .dot {
-                margin-left: 130px;
-            }
-        }
-
-        .image-border {
-            border: 15px solid rgb(77, 187, 241);
-        }
-
-        .standard-color {
-            color: rgb(77, 187, 241);
-        }
-
-        .standard-background {
-            background: rgb(77, 187, 241);
-        }
-
-        .shadow {
-            padding: 5px;
-            box-shadow: 5px 10px 10px #888888;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
+    <!---------------Crossed top header----->
     <div class="crossed-wallpaper"></div>
     <div class="image-box">
         <img src="./Images/nvchaitanya.png" height="200px" width="200px" class="rounded-circle image-border"
             alt="chathan photo">
     </div>
 
+    <!---------------Image with dot--------->
     <div class="offset-5 offset-md-4 offset-lg-5">
         <div class="rounded-circle dot"></div>
     </div>
 
+    <!----------------Personal Details------>
     <div class="container text-center">
         <div class="row">
             <div class="col mt-5">
@@ -137,6 +77,7 @@
         </div>
     </div>
 
+    <!----------------Tech Stack------------>
     <div class="container my-3">
         <h1 class="text-center text-muted"> <strong>Tech Stack</strong></h1>
         <div class="row">
@@ -184,6 +125,7 @@
     </div>
     <hr>
 
+    <!---------------Proficiencies---------->
     <div class="container my-5">
         <h1 class="text-center text-muted"> <strong>Proficiencies</strong></h1>
         <div class="row">
@@ -209,52 +151,96 @@
     </div>
     <hr>
 
-    <div class="container my-5">
-        <h1 class="text-center text-muted"><strong>Projects</strong></h1>
+    <!---------------Projects--------------->
+    <div class="container">
+        <h1 class="text-center text-muted font-weight-bold">Projects</h1>
         <div class="row">
-            <div class="col-10 offset-1 offset-md-0 col-md-6 col-lg-6 mb-2">
-                <div class="card">
-                    <div class="card-header">
-                        <img src="./Images/flipkart.png" alt="" class="img-fluid" style="height:500px;width:500px">
+            <div class="col-12 col-md-6 col-lg-4 my-3">
+                <div class="card text-center rounded-lg">
+                    <div class="card-header mb-4">
+                        <img src="./Images/flipkart.png" alt="" class="img-fluid">
                     </div>
-                    <div class="card-body text-center">
-                        <h3 class="text-center"><strong> Flikart Project</strong></h3>
-                        <span class="h5">This is the clone of Flipkart Website</span><br>
-                        <a href="https://github.com/nvchaitanya/Frontend-Project-Flipkart"><span
-                                class="text-dark text-muted"><i class="fab fa-github"></i> GitHub</span></a>
-                        <a href="https://trusting-jang-95b042.netlify.com"><span class="text-muted px-4">Project
-                                Demo</span></a>
-
+                    <div class="card-body">
+                        <h5 class="font-weight-bold">Flipkart Clone</h5>
+                        <h6 class="pb-5">This is a clone of Flipkart Website for the Week 6 project using Jquery</h6>
+                        <div class="mt-5">
+                            <img src="https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/html5-512.png"
+                                style="height:25px" class="px-1" alt="">
+                            <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png"
+                                style="height:25px" class="px-1" alt="">
+                            <img src="https://cdn.svgporn.com/logos/bootstrap.svg" style="height:25px" class="px-1"
+                                alt="">
+                            <img src="https://cdn.svgporn.com/logos/javascript.svg" style="height:25px" class="px-1"
+                                alt="">
+                            <img src="https://cdn.svgporn.com/logos/jquery.svg" style="height:25px" class="px-1" alt="">
+                        </div>
                     </div>
-                    <div class="card-footer text-center">
-                        <img src="https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/html5-512.png"
-                            style="height:25px" class="px-1" alt="">
-                        <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png"
-                            style="height:25px" class="px-1" alt="">
-                        <img src="https://cdn.svgporn.com/logos/bootstrap.svg" style="height:25px" class="px-1" alt="">
-                        <img src="https://cdn.svgporn.com/logos/javascript.svg" style="height:25px" class="px-1" alt="">
-                        <img src="https://cdn.svgporn.com/logos/jquery.svg" style="height:25px" class="px-1" alt="">
-
+                    <div class="card-footer d-flex justify-content-around mt-4">
+                        <a href="https://github.com/nvchaitanya/Frontend-Project-Flipkart"><button
+                                class="btn bg-primary text-light"><i class="fab fa-github"></i> Github</button></a>
+                        <a href="https://trusting-jang-95b042.netlify.com"><button
+                                class="btn bg-primary text-light">View
+                                Demo</button></a>
                     </div>
                 </div>
             </div>
-            <div class="col-10 offset-1 offset-md-0 col-md-6 col-lg-6 mb-2">
-                <div class="card">
-                    <div class="card-header">
-                        <img src="./Images/currency converter.png" alt="" style="height:500px;width:500px">
+
+            <div class="col-12 col-md-6 col-lg-4 my-3">
+                <div class="card text-center rounded-lg">
+                    <div class="card-header mb-4">
+                        <img src="./Images/omdb.png" alt="" class="img-fluid">
                     </div>
-                    <div class="card-body mb-4">
-                        <h3 class="text-center"><strong>Currency Converter</strong></h3>
-                        <span class="h5">This is an Online Currency Converter</span><br>
+                    <div class="card-body">
+                        <h5 class="font-weight-bold">Open Movie Data Base</h5>
+                        <h6 class="pb-5">In this Project we can search for movies based on any random word and get the complete details of any movie. </h6>
+                        <div class="mt-5">
+                            <img src="https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/html5-512.png"
+                                style="height:25px" class="px-1" alt="">
+                            <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png"
+                                style="height:25px" class="px-1" alt="">
+                            <img src="https://cdn.svgporn.com/logos/bootstrap.svg" style="height:25px" class="px-1"
+                                alt="">
+                            <img src="https://cdn.svgporn.com/logos/javascript.svg" style="height:25px" class="px-1"
+                                alt="">
+                            <img src="https://cdn.svgporn.com/logos/jquery.svg" style="height:25px" class="px-1" alt="">
+                        </div>
                     </div>
-                    <div class="card-footer text-center">
-                        <img src="https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/html5-512.png"
-                            style="height:25px" class="px-1" alt="">
-                        <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png"
-                            style="height:25px" class="px-1" alt="">
-                        <img src="https://cdn.svgporn.com/logos/bootstrap.svg" style="height:25px" class="px-1" alt="">
-                        <img src="https://cdn.svgporn.com/logos/javascript.svg" style="height:25px" class="px-1" alt="">
-                        <img src="https://cdn.svgporn.com/logos/jquery.svg" style="height:25px" class="px-1" alt="">
+                    <div class="card-footer d-flex justify-content-around mt-4">
+                        <a href="https://github.com/nvchaitanya/masai-sprint-3"><button
+                                class="btn bg-primary text-light"><i class="fab fa-github"></i> Github</button></a>
+                        <a href="https://obdb-database-chathan.netlify.com/"><button
+                                class="btn bg-primary text-light">View
+                                Demo</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 my-3">
+                <div class="card text-center rounded-lg">
+                    <div class="card-header mb-4">
+                        <img src="./Images/flipkart.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="font-weight-bold">Flipkart Clone</h5>
+                        <h6 class="pb-5">This is a clone of Flipkart Website for the Week 6 project using Jquery</h6>
+                        <div class="mt-5">
+                            <img src="https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/html5-512.png"
+                                style="height:25px" class="px-1" alt="">
+                            <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png"
+                                style="height:25px" class="px-1" alt="">
+                            <img src="https://cdn.svgporn.com/logos/bootstrap.svg" style="height:25px" class="px-1"
+                                alt="">
+                            <img src="https://cdn.svgporn.com/logos/javascript.svg" style="height:25px" class="px-1"
+                                alt="">
+                            <img src="https://cdn.svgporn.com/logos/jquery.svg" style="height:25px" class="px-1" alt="">
+                        </div>
+                    </div>
+                    <div class="card-footer d-flex justify-content-around mt-4">
+                        <a href="https://github.com/nvchaitanya/Frontend-Project-Flipkart"><button
+                                class="btn bg-primary text-light"><i class="fab fa-github"></i> Github</button></a>
+                        <a href="https://trusting-jang-95b042.netlify.com"><button
+                                class="btn bg-primary text-light">View
+                                Demo</button></a>
                     </div>
                 </div>
             </div>
@@ -262,30 +248,31 @@
     </div>
     <hr class="my-3">
 
+    <!---------------Rounded circles for large screens----------->
     <div class="container text-center my-5">
         <div class="row">
-            <div class="col-lg-2 offset-lg-1 mb-2 text-center d-none d-lg-block">
+            <div class="col-lg-3 mb-2 text-center d-none d-lg-block">
                 <div style="height:220px;width:220px;border:15px solid rgb(77, 187, 241);"
                     class="text-center rounded-circle">
                     <p class="font-weight-bold pt-5 h1 text-center">1200+</p>
                     <span class="h4">Hours Of<br> Coding</span>
                 </div>
             </div>
-            <div class="col-lg-2 offset-lg-1 mb-2 d-none d-lg-block">
+            <div class="col-lg-3 mb-2 d-none d-lg-block">
                 <div style="height:220px;width:220px;border:15px solid rgb(77, 187, 241);"
                     class="text-center rounded-circle">
                     <p class="font-weight-bold pt-5 h1">150+</p>
                     <span class="h4">Hackerrank <br>Problems</span>
                 </div>
             </div>
-            <div class="col-lg-2 offset-lg-1 mb-2 d-none d-lg-block">
+            <div class="col-lg-3 mb-2 d-none d-lg-block">
                 <div style="height:220px;width:220px;border:15px solid rgb(77, 187, 241);"
                     class="text-center rounded-circle">
                     <p class="font-weight-bold pt-5 h1">230+</p>
                     <span class="h4">GitHub Contributions</span>
                 </div>
             </div>
-            <div class="col-lg-2 offset-lg-1 mb-2 d-none d-lg-block">
+            <div class="col-lg-3 mb-2 d-none d-lg-block">
                 <div style="height:220px;width:220px;border:15px solid rgb(77, 187, 241);"
                     class="text-center rounded-circle">
                     <p class="font-weight-bold h1 mt-5">100</p>
@@ -293,7 +280,7 @@
                 </div>
             </div>
         </div>
-
+        <!--------------Flat boxes for small and medium screen-------->
         <div clas="row">
             <div class="col-10 offset-1 col-md-10 d-lg-none shadow mb-3">
                 <h4 class="border border-info py-4 rounded">1200+ Hours of Coding</h4>
@@ -311,6 +298,7 @@
     </div>
     <hr class="my-5">
 
+    <!--------------GitHub Contribution-------------------------->
     <div class="container">
         <div class="row">
             <div class="col-10 offset-1 col-md-10 offset-md-1 col-lg-12 offset-lg-0">
