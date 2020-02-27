@@ -1,0 +1,62 @@
+.crossed-wallpaper {
+            background: rgb(77, 187, 241);
+            padding: 100px 0;
+            transform: skew(0deg, -4deg) translateY(-90px);
+            position: relative;
+        }
+
+        .image-box {
+            margin-top: -150px;
+            margin-left: 45%;
+            position: absolute;
+        }
+
+        @media only screen and (max-width:768px) {
+            .image-box {
+                margin-left: 46%;
+                position: absolute;
+            }
+        }
+
+        @media only screen and (max-width:600px) {
+            .image-box {
+                margin-left: 27%;
+                position: absolute;
+            }
+        }
+
+        .dot {
+            background: rgb(77, 187, 241);
+            height: 25px;
+            width: 25px;
+            margin-left: 25%;
+        }
+
+        @media only screen and (max-width:600px) {
+            .dot {
+                margin-left: 50px;
+            }
+        }
+
+        @media only screen and (max-width:768px) {
+            .dot {
+                margin-left: 130px;
+            }
+        }
+
+        .image-border {
+            border: 15px solid rgb(77, 187, 241);
+        }
+
+        .standard-color {
+            color: rgb(77, 187, 241);
+        }
+
+        .standard-background {
+            background: rgb(77, 187, 241);
+        }
+
+        .shadow {
+            padding: 5px;
+            box-shadow: 5px 10px 10px #888888;
+        }
