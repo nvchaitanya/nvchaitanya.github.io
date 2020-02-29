@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <title>portfolio</title>
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+    <title>portfolio</title>
 </head>
 
 <body>
@@ -18,7 +21,7 @@
             alt="chathan photo">
     </div>
 
-    <!---------------Image with dot--------->
+    <!---------------Profile Image with dot--------->
     <div class="offset-5 offset-md-4 offset-lg-5">
         <div class="rounded-circle dot"></div>
     </div>
@@ -158,11 +161,11 @@
             <div class="col-12 col-md-6 col-lg-4 my-3">
                 <div class="card text-center rounded-lg">
                     <div class="card-header mb-4">
-                        <img src="./Images/flipkart.png" alt="" class="img-fluid">
+                        <img src="./Images/flipkart.png" alt="" class="img-fluid img-thumbnail" style="height:200px;">
                     </div>
                     <div class="card-body">
                         <h5 class="font-weight-bold">Flipkart Clone</h5>
-                        <h6 class="pb-5">This is a clone of Flipkart Website for the Week 6 project using Jquery</h6>
+                        <h6 class="pb-5">This is a clone of Flipkart Website and is dynamic done for the Week 6 project using jquery.</h6>
                         <div class="mt-5">
                             <img src="https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/html5-512.png"
                                 style="height:25px" class="px-1" alt="">
@@ -188,11 +191,12 @@
             <div class="col-12 col-md-6 col-lg-4 my-3">
                 <div class="card text-center rounded-lg">
                     <div class="card-header mb-4">
-                        <img src="./Images/omdb.png" alt="" class="img-fluid">
+                        <img src="./Images/omdb.png" alt="" style="height:200px;" class="img-fluid img-thumbnail">
                     </div>
                     <div class="card-body">
                         <h5 class="font-weight-bold">Open Movie Data Base</h5>
-                        <h6 class="pb-5">In this Project we can search for movies based on any random word and get the complete details of any movie. </h6>
+                        <h6 class="pb-5">In this Project we can search for movies based on any random word and get the
+                            complete details of any movie. </h6>
                         <div class="mt-5">
                             <img src="https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/html5-512.png"
                                 style="height:25px" class="px-1" alt="">
@@ -218,33 +222,39 @@
             <div class="col-12 col-md-6 col-lg-4 my-3">
                 <div class="card text-center rounded-lg">
                     <div class="card-header mb-4">
-                        <img src="./Images/flipkart.png" alt="" class="img-fluid">
+                        <img src="./Images/expenseman.png" alt="" style="height:200px;" class="img-fluid img-thumbnail">
                     </div>
                     <div class="card-body">
-                        <h5 class="font-weight-bold">Flipkart Clone</h5>
-                        <h6 class="pb-5">This is a clone of Flipkart Website for the Week 6 project using Jquery</h6>
+                        <h5 class="font-weight-bold">Expense Manager</h5>
+                        <h6 class="pb-5">A Simple Expense Manager App Which Takes Input From User and Displays The Income,Expenditure and Balance.</h6>
                         <div class="mt-5">
                             <img src="https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/html5-512.png"
                                 style="height:25px" class="px-1" alt="">
                             <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png"
                                 style="height:25px" class="px-1" alt="">
-                            <img src="https://cdn.svgporn.com/logos/bootstrap.svg" style="height:25px" class="px-1"
-                                alt="">
                             <img src="https://cdn.svgporn.com/logos/javascript.svg" style="height:25px" class="px-1"
                                 alt="">
-                            <img src="https://cdn.svgporn.com/logos/jquery.svg" style="height:25px" class="px-1" alt="">
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-around mt-4">
-                        <a href="https://github.com/nvchaitanya/Frontend-Project-Flipkart"><button
+                        <a href="https://github.com/nvchaitanya/masai-sprint-2"><button
                                 class="btn bg-primary text-light"><i class="fab fa-github"></i> Github</button></a>
-                        <a href="https://trusting-jang-95b042.netlify.com"><button
+                        <a href="https://expensemanager.netlify.com/"><button
                                 class="btn bg-primary text-light">View
                                 Demo</button></a>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+    <hr class="my-3">
+
+    <!---------------Achievements----------->
+    <div class="container text-center">
+        <h1 class="text-muted font-weight-bold">Achievements</h1>
+        <img src="./Images/masaihack.png" alt="hackathon" class="img-fluid mb-4"><br>
+        <span class="text-warning h3"><i class="fas fa-trophy"></i></span>
+        <span class="text-success h2 font-weight-bold">Winner in Masai Hackathon</span>
     </div>
     <hr class="my-3">
 
@@ -268,7 +278,7 @@
             <div class="col-lg-3 mb-2 d-none d-lg-block">
                 <div style="height:220px;width:220px;border:15px solid rgb(77, 187, 241);"
                     class="text-center rounded-circle">
-                    <p class="font-weight-bold pt-5 h1">230+</p>
+                    <p class="font-weight-bold pt-5 h1">260+</p>
                     <span class="h4">GitHub Contributions</span>
                 </div>
             </div>
@@ -289,7 +299,7 @@
                 <h4 class="border border-info py-4 rounded">150+ Hackerrank Problems</h4>
             </div>
             <div class="col-10 offset-1 col-md-10 d-lg-none shadow mb-3">
-                <h4 class="border border-info py-4 rounded">230+ GitHub Contributions</h4>
+                <h4 class="border border-info py-4 rounded">260+ GitHub Contributions</h4>
             </div>
             <div class="col-10 offset-1 col-md-10 d-lg-none shadow mb-3">
                 <h4 class="border border-info py-4 rounded">100 Hours of Soft Skills</h4>
@@ -299,15 +309,13 @@
     <hr class="my-5">
 
     <!--------------GitHub Contribution-------------------------->
-    <div class="container">
-        <div class="row">
-            <div class="col-10 offset-1 col-md-10 offset-md-1 col-lg-12 offset-lg-0">
-                <img src="./Images/github.png" alt="github" class="img-fluid">
-            </div>
-        </div>
+    <div class="calendar container my-5">
+        
     </div>
+    <script>
+        GitHubCalendar(".calendar", "nvchaitanya", { responsive: true });
+    </script>
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
