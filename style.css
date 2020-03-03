@@ -55,8 +55,3 @@
 .standard-background {
     background: rgb(77, 187, 241);
 }
-
-.shadow {
-    padding: 5px;
-    box-shadow: 5px 10px 10px #888888;
-}
